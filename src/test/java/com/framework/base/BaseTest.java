@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Listeners;
 
+import com.framework.pages.LoginPage;
+
 @Listeners(com.framework.listeners.TestListener.class)
 public class BaseTest {
 	
@@ -27,6 +29,8 @@ public class BaseTest {
 		driver=new ChromeDriver();
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
+		
+		
 		
 		
 		

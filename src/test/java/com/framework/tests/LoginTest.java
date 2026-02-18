@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest{
 		String title=driver.getTitle();
 		System.out.println("page title is "+title);
 		Assert.assertTrue(title.contains("Swag"),"Login Failed for user "+username);
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 		
 		
 	//String user=prop.getProperty("username");
