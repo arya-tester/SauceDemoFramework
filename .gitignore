@@ -17,8 +17,9 @@ target/
 .DS_Store
 Thumbs.db
 
-target/
 .classpath
 .project
 .settings/
+target/
+
 
